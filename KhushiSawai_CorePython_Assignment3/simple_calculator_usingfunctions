@@ -1,0 +1,29 @@
+# Create a calculator using separate functions for each arithmetic operation.
+
+def addition(a,b):
+    return a+b
+
+def subtraction(a,b):
+    return a-b
+
+def multiplication(a,b):
+    return a*b
+
+def division(a,b):
+    return a/b
+
+num1 =float(input("Enter first number:"))
+operator = input("Enter operator:")
+num2 =float(input("Enter second number:"))
+
+if operator == "+":
+    result = addition(num1,num2)
+elif operator == "-":
+    result = subtraction(num1,num2)
+elif operator == "*":
+    result = multiplication(num1,num2)
+elif operator == "/":
+    result = division(num1,num2)
+else:
+    result = "Invalid operator"
+print("Result =",result)

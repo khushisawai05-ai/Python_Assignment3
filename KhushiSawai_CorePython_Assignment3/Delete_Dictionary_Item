@@ -1,0 +1,7 @@
+# Remove a key-value pair from a dictionary
+stu = {"Name":"Anuja","Age":24,"Course":"Python","City":"Amravati","Dept":"CSE"}
+print(stu)
+del stu["Dept"]
+print(stu)
+del stu["Course"]
+print(stu)
